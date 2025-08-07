@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custodial Services | Elda Cleaning Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top-contact">
+    📞 (310) 310-0991 | ✉️ info@eldacs.com
+  </div>
+  <header>
+    <h1>Elda Cleaning Services</h1>
+    <nav>
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+  <span class="dropdown-toggle" onclick="toggleDropdown()">Services</span>
+  <div class="dropdown-content" id="dropdownMenu">
+    <a href="commercial.html">Commercial Cleaning</a>
+    <a href="janitorial.html">Janitorial Services</a>
+    <a href="custodial.html">Custodial Services</a>
+  </div>
+</div>
+  <a href="https://eldacs.com/book" target="_blank">Book</a>
+  <a href="privacy.html">Privacy Policy</a>
+</nav>
+  </header>
+
+  <main class="page-content">
+    <section class="service-details">
+      <h2>Carpet Cleaning</h2>
+
+      <h3>Commercial Carpet Cleaning – A Fresh Start for Your Business</h3>
+      <p>ELDA Carpet Cleaning Service understands that your business’s appearance speaks volumes. Carpet cleaning service is crucial for creating a positive first impression on clients and fostering a productive environment for your employees. At Elda Cleaning Services, we specialize in commercial carpet cleaning, offering tailored solutions designed to meet the unique demands of your business, regardless of its size or industry.</p>
+
+      <h3>Why Choose ELDA for Your Commercial Carpet Cleaning Needs?</h3>
+      <ul>
+        <li><strong>Expert Technicians:</strong> Our highly trained and experienced team possesses a deep understanding of the specific challenges inherent in commercial carpet cleaning. We utilize advanced cleaning techniques and state-of-the-art equipment to deliver consistently exceptional results, exceeding your expectations every time.</li>
+        <li><strong>Eco-Friendly Cleaning Solutions:</strong> We are committed to the health and well-being of your employees and the environment. That’s why we exclusively use eco-friendly cleaning products that are both safe and highly effective.</li>
+        <li><strong>Flexible Scheduling:</strong> We understand that your business operations are paramount. We create a cleaning schedule that minimizes disruption to your daily activities and maximizes productivity.</li>
+        <li><strong>Customizable Cleaning Plans:</strong> Whether you require a one-time deep clean or ongoing regular maintenance, we offer flexible service packages to meet your unique needs and budget.</li>
+        <li><strong>Improved Indoor Air Quality:</strong> Our thorough process removes dirt, dust mites, allergens, and pollutants from your carpets, contributing to a healthier work environment.</li>
+      </ul>
+
+      <h3>Our Comprehensive Commercial Carpet Cleaning Process:</h3>
+      <ul>
+        <li><strong>Pre-Inspection:</strong> We assess your carpets for stains, wear, and specific needs to choose the best cleaning method.</li>
+        <li><strong>Pre-Cleaning (Spot Treatment):</strong> Stubborn stains and heavily soiled areas are pre-treated for maximum effectiveness.</li>
+        <li><strong>Deep Cleaning (Hot Water Extraction):</strong> Using state-of-the-art equipment, we extract dirt, grime, and allergens from deep within the carpet fibers.</li>
+        <li><strong>Post-Cleaning Inspection:</strong> We conduct a final walkthrough to ensure our results meet your expectations and satisfaction.</li>
+      </ul>
+
+      <h3>Elevate Your Business Image with Clean, Fresh Carpets</h3>
+      <p>Don’t underestimate the impact of clean carpets on your business. Contact Elda Cleaning Services, LLC today for a free consultation and to schedule your commercial carpet cleaning service. We are committed to providing superior service and exceptional results that reflect your business’s professionalism and care.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>📞 (310) 310-0991 | ✉️ info@eldacs.com</p>
+    <p>&copy; 2025 Elda Cleaning Services. All rights reserved.</p>
+  </footer>
+  <script>
+  function toggleDropdown() {
+    const menu = document.getElementById("dropdownMenu");
+    menu.classList.toggle("show");
+  }
+
+  window.addEventListener("click", function (e) {
+    if (!e.target.matches('.dropdown-toggle')) {
+      const menu = document.getElementById("dropdownMenu");
+      if (menu && menu.classList.contains("show")) {
+        menu.classList.remove("show");
+      }
+    }
+  });
+</script>
+</body>
+</html>

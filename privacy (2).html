@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | Elda Cleaning Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top-contact">
+    📞 (310) 310-0991 | ✉️ info@eldacs.com
+  </div>
+  <header>
+    <h1>Elda Cleaning Services</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+  <span class="dropdown-toggle" onclick="toggleDropdown()">Services</span>
+  <div class="dropdown-content" id="dropdownMenu">
+    <a href="commercial.html">Commercial Cleaning</a>
+    <a href="janitorial.html">Janitorial Services</a>
+    <a href="custodial.html">Custodial Services</a>
+  </div>
+</div>
+      <a href="https://eldacs.com/book" target="_blank">Book</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <section class="privacy-policy">
+      <h2>Privacy Policy</h2>
+      <p>This Privacy Policy describes how we collect, use, and share your personal information when you use our website and services.</p>
+
+      <h3>Comments</h3>
+      <p>When visitors leave comments on the site, we collect the data shown in the comments form, and the visitor’s IP address and browser user agent string for spam detection.</p>
+      <p>An anonymized string (hash) created from your email may be provided to the Gravatar service to see if you are using it. The Gravatar privacy policy is available on Gravatar’s site. After approval of your comment, your profile picture becomes visible publicly in the context of your comment.</p>
+
+      <h3>Media</h3>
+      <p>If you upload images, avoid embedding location data (EXIF GPS). Visitors can download and extract location data from images.</p>
+
+      <h3>Cookies</h3>
+      <p>If you leave a comment, you may opt-in to saving your name, email, and website in cookies – last for one year for convenience. If you visit the login page, a temporary cookie is set to check if your browser accepts cookies; it’s discarded when you close the browser. When you log in, several cookies track login and display preferences; “Remember Me” sessions last two weeks. Publishing or editing articles also sets additional cookies (no personal data), which expire after one day.</p>
+
+      <h3>Embedded Content from Other Sites</h3>
+      <p>Embedded content (e.g., videos, images, articles) behaves as if you visited the source website — they may collect data, use cookies, embed tracking, and monitor your interaction.</p>
+
+      <h3>Who We Share Your Data With</h3>
+      <p>If you request a password reset, your IP address is included in the reset email.</p>
+
+      <h3>How Long We Retain Your Data</h3>
+      <p>If you leave a comment, it and its metadata are retained indefinitely to recognize and approve any follow-up comments automatically.</p>
+      <p>Users with accounts can view, edit, or delete their personal data at any time (except username changes). Site administrators can also modify user information.</p>
+
+      <h3>Your Data Rights</h3>
+      <p>You may request an exported file of your personal data or ask that we erase information we hold (excluding data needed for administrative, legal, or security reasons).</p>
+
+      <h3>Where Your Data Is Sent</h3>
+      <p>Visitor comments may be checked through an automated spam detection service.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>📞 (310) 310-0991 | ✉️ info@eldacs.com</p>
+    <p>&copy; 2025 Elda Cleaning Services. All rights reserved.</p>
+  </footer>
+  <script>
+  function toggleDropdown() {
+    const menu = document.getElementById("dropdownMenu");
+    menu.classList.toggle("show");
+  }
+
+  window.addEventListener("click", function (e) {
+    if (!e.target.matches('.dropdown-toggle')) {
+      const menu = document.getElementById("dropdownMenu");
+      if (menu && menu.classList.contains("show")) {
+        menu.classList.remove("show");
+      }
+    }
+  });
+</script>
+</body>
+</html>

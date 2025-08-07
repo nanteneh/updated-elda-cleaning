@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Elda Cleaning Services</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .booking-info {
+      margin-top: 60px;
+      padding: 40px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .booking-info h3, .booking-info h4, .booking-info h5 {
+      color: #004d66;
+      margin-top: 24px;
+    }
+
+    .booking-info ul {
+      padding-left: 1.2em;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      list-style-position: inside;
+    }
+
+    .booking-info ul li {
+      margin-bottom: 8px;
+      line-height: 1.6;
+      text-indent: -1em;
+      padding-left: 1em;
+    }
+
+    .top-contact {
+      background-color: #eee;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 14px;
+      color: #333;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-contact">
+    📞 (310) 310-0991 | ✉️ info@eldacs.com
+  </div>
+
+  <header>
+    <h1>Elda Cleaning Services</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <span class="dropdown-toggle" onclick="toggleDropdown()">Services</span>
+        <div class="dropdown-content" id="dropdownMenu">
+          <a href="commercial.html">Commercial Cleaning</a>
+          <a href="janitorial.html">Janitorial Services</a>
+          <a href="custodial.html">Custodial Services</a>
+        </div>
+      </div>
+      <a href="https://eldacs.com/book" target="_blank">Book</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+  </header>
+
+  <main class="home-hero">
+    <div class="hero-content">
+      <h2>Spotless Cleaning. Stress-Free Living.</h2>
+      <p>Your trusted cleaning professionals serving Los Angeles with precision, care, and eco‑friendly service.</p>
+      <a href="https://eldacs.com/book" target="_blank" class="btn">Book Now</a>
+    </div>
+
+    <section class="booking-info">
+      <h4>What we do:</h4>
+      <ul>
+        <li><strong>Expert Cleaning:</strong> Our experienced technicians utilize advanced cleaning techniques and eco-friendly products to ensure a pristine environment.</li>
+        <li><strong>Customized Solutions:</strong> Whether it’s Everyday Cleaning, Weekly Cleaning, Bi-weekly Cleaning or a Customized Cleaning Schedule.</li>
+        <li><strong>Reliable Service:</strong> We are punctual, professional, and committed to exceeding your expectations.</li>
+        <li><strong>Affordable Rates:</strong> We offer competitive pricing without compromising on quality.</li>
+      </ul>
+
+      <h4>Our Services:</h4>
+      <h5>Commercial Cleaning Services</h5>
+      <ul>
+        <li>Warehouse Cleaning</li>
+        <li>Big Event Cleaning</li>
+        <li>Retail Store Cleaning</li>
+        <li>Industrial Cleaning</li>
+      </ul>
+
+      <h5>Janitorial Service</h5>
+      <ul>
+        <li>Sweep, Mop, Dust and Vacuum</li>
+        <li>Sanitize Bathrooms and Kitchen</li>
+        <li>Clean and Sanitize Common Areas</li>
+        <li>Window Cleaning</li>
+      </ul>
+
+      <h5>Carpet Cleaning</h5>
+      <ul>
+        <li>Hot Water Extraction</li>
+        <li>Dry Carpet Cleaning</li>
+        <li>Stain Removal</li>
+        <li>Odor Removal</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>📞 (310) 310-0991 | ✉️ info@eldacs.com</p>
+    <p>&copy; 2025 Elda Cleaning Services. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleDropdown() {
+      const menu = document.getElementById("dropdownMenu");
+      menu.classList.toggle("show");
+    }
+
+    window.addEventListener("click", function (e) {
+      if (!e.target.matches('.dropdown-toggle')) {
+        const menu = document.getElementById("dropdownMenu");
+        if (menu && menu.classList.contains("show")) {
+          menu.classList.remove("show");
+        }
+      }
+    });
+  </script>
+</body>
+</html>

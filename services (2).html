@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Elda Cleaning Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top-contact">
+    📞 (310) 310-0991 | ✉️ info@eldacs.com
+  </div>
+  <header>
+    <h1>Elda Cleaning Services</h1>
+    <nav>
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+  <span class="dropdown-toggle" onclick="toggleDropdown()">Services</span>
+  <div class="dropdown-content" id="dropdownMenu">
+    <a href="commercial.html">Commercial Cleaning</a>
+    <a href="janitorial.html">Janitorial Services</a>
+    <a href="custodial.html">Custodial Services</a>
+  </div>
+</div>
+  <a href="https://eldacs.com/book" target="_blank">Book</a>
+  <a href="privacy.html">Privacy Policy</a>
+</nav>
+  </header>
+
+
+  <footer>
+    <p>📞 (310) 310-0991 | ✉️ info@eldacs.com</p>
+    <p>&copy; 2025 Elda Cleaning Services. All rights reserved.</p>
+  </footer>
+  <script>
+  function toggleDropdown() {
+    const menu = document.getElementById("dropdownMenu");
+    menu.classList.toggle("show");
+  }
+
+  window.addEventListener("click", function (e) {
+    if (!e.target.matches('.dropdown-toggle')) {
+      const menu = document.getElementById("dropdownMenu");
+      if (menu && menu.classList.contains("show")) {
+        menu.classList.remove("show");
+      }
+    }
+  });
+</script>
+</body>
+</html>

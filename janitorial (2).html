@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Janitorial Services | Elda Cleaning Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top-contact">
+    📞 (310) 310-0991 | ✉️ info@eldacs.com
+  </div>
+  <header>
+    <h1>Elda Cleaning Services</h1>
+    <nav>
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+  <span class="dropdown-toggle" onclick="toggleDropdown()">Services</span>
+  <div class="dropdown-content" id="dropdownMenu">
+    <a href="commercial.html">Commercial Cleaning</a>
+    <a href="janitorial.html">Janitorial Services</a>
+    <a href="custodial.html">Custodial Services</a>
+  </div>
+</div>
+  <a href="https://eldacs.com/book" target="_blank">Book</a>
+  <a href="privacy.html">Privacy Policy</a>
+</nav>
+  </header>
+
+  <main class="page-content">
+    <section class="service-details">
+      <h2>Janitorial Services</h2>
+
+      <h3>ELDA Janitorial Services – Your Partner in a Spotless and Productive Workspace</h3>
+      <p>At ELDA Janitorial Service, we understand that a clean and organized workplace is more than just an aesthetic preference. It’s a vital component of a thriving business. Our comprehensive janitorial services are designed to create a healthy, inviting, and productive environment for your employees and clients alike.</p>
+
+      <h3>Beyond the Basics: A Holistic Approach to Janitorial Excellence</h3>
+      <p>We go beyond the traditional sweep and mop, offering a meticulous and thorough cleaning regimen that addresses every facet of your workspace. Our standard janitorial services include:</p>
+      <ul>
+        <li><strong>Dusting and Surface Sanitization:</strong> We meticulously dust all surfaces, from desks and shelves to light fixtures and window sills, eliminating allergens.</li>
+        <li><strong>Floor Care Mastery:</strong> We ensure your floors are immaculate with expert sweeping, vacuuming, and mopping techniques. We have the specialized equipment and skills to maintain their pristine condition.</li>
+        <li><strong>Sanitation:</strong> We prioritize high-traffic areas like kitchens and restrooms. We utilize powerful disinfectants to eliminate germs and bacteria, promoting a healthy environment for everyone.</li>
+      </ul>
+
+      <h3>Deep Cleaning for a Lasting Impression</h3>
+      <p>Recognizing that some areas require specialized attention, we offer comprehensive deep cleaning services to rejuvenate your workspace:</p>
+      <ul>
+        <li><strong>Specialized Area Cleaning:</strong> We tailor our services to address the unique needs of specific areas such as breakrooms, conference rooms, and reception areas, ensuring every corner of your office is impeccably clean.</li>
+        <li><strong>Carpet Shampooing and Extraction:</strong> We revitalize your carpets, removing embedded dirt, stains, and allergens, extending their lifespan and enhancing the overall appearance of your office.</li>
+        <li><strong>Window Cleaning (Interior and Exterior):</strong> We provide streak-free window cleaning, allowing natural light to flood your workspace and creating a brighter, more welcoming atmosphere.</li>
+      </ul>
+
+      <h3>Flexible Scheduling to Meet Your Needs</h3>
+      <p>We understand that every workplace has unique cleaning requirements. That’s why we offer flexible scheduling options, including daily, weekly, monthly, and customized cleaning plans. We work with you to determine the optimal frequency for each cleaning task, ensuring your workspace remains consistently clean and inviting.</p>
+
+      <h3>The ELDA Advantage: Investing in Your Business’s Success</h3>
+      <ul>
+        <li><strong>Enhanced Employee Well-being:</strong> A clean and sanitized workplace reduces the spread of germs and allergens, leading to fewer sick days and improved employee morale.</li>
+        <li><strong>Increased Productivity:</strong> A clutter-free and organized environment promotes focus and efficiency, allowing your team to concentrate on their core tasks.</li>
+        <li><strong>Elevated Company Image:</strong> A spotless workspace creates a positive impression on clients and visitors, reflecting your commitment to professionalism and excellence.</li>
+        <li><strong>Stress-Free Management:</strong> By entrusting your janitorial needs to ELDA Cleaning Services, you can free up valuable time and resources, allowing you to focus on growing your business.</li>
+        <li><strong>Reliable and Trustworthy Service:</strong> As a reputable cleaning service in Los Angeles, we are committed to providing consistent, high-quality service that exceeds your expectations.</li>
+      </ul>
+
+      <h3>Choose ELDA Cleaning Services: Your Partner in Cleanliness</h3>
+      <p>Experience the difference a professional cleaning service can make. Contact ELDA Cleaning Services today for a customized cleaning plan that meets your specific needs. Let us help you create a spotless, healthy, and productive workspace that reflects the excellence of your business.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>📞 (310) 310-0991 | ✉️ info@eldacs.com</p>
+    <p>&copy; 2025 Elda Cleaning Services. All rights reserved.</p>
+  </footer>
+  <script>
+  function toggleDropdown() {
+    const menu = document.getElementById("dropdownMenu");
+    menu.classList.toggle("show");
+  }
+
+  window.addEventListener("click", function (e) {
+    if (!e.target.matches('.dropdown-toggle')) {
+      const menu = document.getElementById("dropdownMenu");
+      if (menu && menu.classList.contains("show")) {
+        menu.classList.remove("show");
+      }
+    }
+  });
+</script>
+</body>
+</html>

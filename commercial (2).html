@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Commercial Cleaning Services | Elda Cleaning Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top-contact">
+    📞 (310) 310-0991 | ✉️ info@eldacs.com
+  </div>
+  <header>
+    <h1>Elda Cleaning Services</h1>
+    <nav>
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+  <span class="dropdown-toggle" onclick="toggleDropdown()">Services</span>
+  <div class="dropdown-content" id="dropdownMenu">
+    <a href="commercial.html">Commercial Cleaning</a>
+    <a href="janitorial.html">Janitorial Services</a>
+    <a href="custodial.html">Custodial Services</a>
+  </div>
+</div>
+  <a href="https://eldacs.com/book" target="_blank">Book</a>
+  <a href="privacy.html">Privacy Policy</a>
+</nav>
+  </header>
+
+  <main class="page-content">
+    <section class="service-details">
+      <h2>Commercial Cleaning Services</h2>
+      <h3>What is a Commercial Cleaning Service?</h3>
+      <p>Commercial cleaning services refer to professional cleaning services provided to businesses and commercial establishments. These services are designed to maintain a clean, healthy, and professional environment, which can contribute to increased productivity, employee satisfaction, and a positive overall impression.</p>
+
+      <h3>Key Differences Between Commercial, Janitorial, and Custodial Cleaning</h3>
+      <h4>Commercial Cleaning Services</h4>
+      <ul>
+        <li><strong>Focus:</strong> Comprehensive cleaning and maintenance of commercial spaces.</li>
+        <li><strong>Tasks:</strong> Includes deep cleaning, specialized cleaning, and routine maintenance.</li>
+        <li><strong>Scope:</strong> Can range from small offices to large industrial facilities.</li>
+      </ul>
+
+      <h4>Janitorial Cleaning Services</h4>
+      <ul>
+        <li><strong>Focus:</strong> Routine cleaning tasks to maintain a clean and hygienic environment.</li>
+        <li><strong>Tasks:</strong> Typically involves tasks like sweeping, mopping, vacuuming, dusting, and restroom cleaning.</li>
+        <li><strong>Scope:</strong> Often used for smaller commercial spaces like offices and retail stores.</li>
+      </ul>
+
+      <h4>Custodial Cleaning</h4>
+      <ul>
+        <li><strong>Focus:</strong> Cleaning and maintenance of public spaces like schools, hospitals, and government buildings.</li>
+        <li><strong>Tasks:</strong> Includes cleaning common areas, restrooms, and specialized cleaning tasks like floor waxing and carpet cleaning.</li>
+        <li><strong>Scope:</strong> Often involves larger facilities with high foot traffic.</li>
+      </ul>
+
+      <p><strong>In essence:</strong></p>
+      <ul>
+        <li>Commercial cleaning is a broader term encompassing a wide range of cleaning services.</li>
+        <li>Janitorial cleaning focuses on routine maintenance tasks.</li>
+        <li>Custodial cleaning is specifically tailored to public spaces and institutions.</li>
+      </ul>
+
+      <h3>What Services Are Included?</h3>
+      <ul>
+        <li><strong>Routine cleaning:</strong> Daily or weekly cleaning tasks to maintain a clean and tidy environment.</li>
+        <li><strong>Deep cleaning:</strong> Periodic cleaning to remove dirt and grime that accumulates over time.</li>
+        <li><strong>Specialized cleaning:</strong> Cleaning of specific areas or surfaces that require specialized techniques or equipment.</li>
+        <li><strong>Floor care:</strong> Cleaning, polishing, and waxing floors to maintain their appearance and protect their surface.</li>
+        <li><strong>Window cleaning:</strong> Cleaning interior and exterior windows to improve visibility and enhance the overall appearance of the building.</li>
+      </ul>
+
+      <p>By understanding the differences between these terms and the services they encompass, businesses can select the appropriate cleaning services to meet their specific needs and maintain a clean, healthy, and professional environment.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>📞 (310) 310-0991 | ✉️ info@eldacs.com</p>
+    <p>&copy; 2025 Elda Cleaning Services. All rights reserved.</p>
+  </footer>
+  <script>
+  function toggleDropdown() {
+    const menu = document.getElementById("dropdownMenu");
+    menu.classList.toggle("show");
+  }
+
+  window.addEventListener("click", function (e) {
+    if (!e.target.matches('.dropdown-toggle')) {
+      const menu = document.getElementById("dropdownMenu");
+      if (menu && menu.classList.contains("show")) {
+        menu.classList.remove("show");
+      }
+    }
+  });
+</script>
+</body>
+</html>
